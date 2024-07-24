@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct JokeAPIClient{
+struct JokeAPIClient{ //JokeAPIClient
     
     static func getJokes(completion: @escaping(Result<[Joke],AppError>) -> ()){
         let endPointURL = "https://official-joke-api.appspot.com/jokes/programming/ten"
